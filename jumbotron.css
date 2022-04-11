@@ -3,9 +3,9 @@ body {
 }
 
 .jumbotron {
-  background-image: url("logo.jpg");
+  background-image: url("logo_sydney3.png");
   background-size: cover;
-  color: #fff;
+  color: #fffff;
   height:500px;
 }
 
