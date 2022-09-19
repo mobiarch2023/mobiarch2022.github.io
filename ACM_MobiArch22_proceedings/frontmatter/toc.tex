@@ -1,0 +1,33 @@
+\documentclass{easychair}
+\titlerunning{MobiArch 2022}
+\authorrunning{Table of Contents}
+\usepackage{titletoc}
+\titlecontents{subsubsection}[2pt]{\addvspace{10pt}\bfseries\titlerule[0.5pt]\filright}{}{}{}[]
+\titlecontents{section}[0pt]{\addvspace{5pt}\filright}{}{}{\dotfill\contentspage}[]
+\titlecontents{subsection}[10pt]{\addvspace{1pt}\itshape\filright}{}{}{}[]
+\newcommand{\tocSection}[1]{\contentsline{subsubsection}{#1\\*\titlerule[0.5pt]\vspace{-9pt plus 2pt minus 2pt}}{}{}\nopagebreak[4]}
+\newcommand{\tocTitle}[2]{\contentsline{section}{#1}{#2}{}\nopagebreak[4]}
+\newcommand{\tocAuthors}[1]{\contentsline{subsection}{#1}{}{}}
+\begin{document}
+\section*{Table of Contents}
+  \tocTitle{Load Balancing for a User-Level Virtualized 5G Cloud-RAN}{1}
+  \tocAuthors{Nishant Budhdev, Arka Maity, Mun Choon Chan and Tulika Mitra}
+  \tocTitle{When 360° Video Meets 5G: A Measurement Study of Delay in Live Streaming}{7}
+  \tocAuthors{Haitao Liu, Xinyi Zhang, Xiang Zhou, Tianyun Zhang, Yanbiao Li, Zhenyu Li and Gaogang Xie}
+  \tocTitle{MAPS: A Dataset for Semantic Profiling and Analysis of Android Applications}{13}
+  \tocAuthors{Amirmohammad Pasdar, Young Choon Lee, Seok-Hee Hong and Tongliang Liu}
+  \tocTitle{A Survey on Participant Selection for Federated Learning in Mobile Networks}{19}
+  \tocAuthors{Behnaz Soltani, Venus Haghighi, Adnan Mahmood, Quan Z. Sheng and Lina Yao}
+  \tocTitle{muCity: A Miniatured Autonomous Vehicle Testbed}{25}
+  \tocAuthors{Joshua Tabor, Shenghong Dai, Varun Sreenivasan and Suman Banerjee}
+  \tocTitle{BI-GAN: Batch Inversion Membership Inference Attack on Federated Learning}{31}
+  \tocAuthors{Hiep Vo, Mingjian Tang, Xi Zheng and Shui Yu}
+  \tocTitle{EPC: a Video Analytics System with Efficient Edge-side Privacy Control}{37}
+  \tocAuthors{Bihai Zhang, Siping Shi, Dan Wang and Chuang Hu}
+  \tocTitle{A Two-Level Architecture for Deep Learning Applications in Mobile Edge Computing}{43}
+  \tocAuthors{Zao Zhang, Yuning Zhang, Dong Yuan and Wei Bao}
+  \tocTitle{SwingLoc: Acoustic Indoor Localization Leveraging Doppler Effects via Wearable Computing}{49}
+  \tocAuthors{Weiling Zheng}
+  \tocTitle{Less is More: Towards low-latency Communication trough Cross-technology Communication}{55}
+  \tocAuthors{Anatolij Zubow, Piotr Gawlowicz and Falko Dressler}
+\end{document}
