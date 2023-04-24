@@ -4,7 +4,6 @@ body {
 
 .jumbotron {
   background-image: url("logo_madrid.jpg");
-  /*("logo_sydney4_full.jpg");*/
   background-size: cover;
   color: #fffff;
   height:500px;
